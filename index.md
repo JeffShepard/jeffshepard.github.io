@@ -1,4 +1,2 @@
-# My Website
+# Jeff Shepard Portfolio
 
-This is my website
-I do things on it.
