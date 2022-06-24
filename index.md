@@ -2,5 +2,5 @@
 
 Here is a random poem generator from early in my coding career ie 2020
 
-[Random Poem Generator](http://jeffshepard.dev/RandomPoemGenerator/)
+[Random Poem Generator](/RandomPoemGenerator/)
 
