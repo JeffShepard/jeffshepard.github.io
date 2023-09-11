@@ -1,0 +1,52 @@
+---
+layout: default
+title: About
+---
+
+<section class="about-section">
+    <div class="profile-image">
+        <img src="/assets/images/profilePic.jpeg" alt="Jeff Shepard picture">
+    </div>
+
+    <div class="profile-description">
+        <p>Most of my career was spent in financial services.  Primarily I managed fixed income portfolios for insurance companies.
+        I established the Insurance Management Asset division at Bank of America, managing $5.5 Billion of fixed income assets. Later in my career, I sold
+    fixed income assets to institutions.  In addition, I earned my CFP and managed assets for individuals. </p>
+    <p>Early in the pandemic, I discovered an aptitude and interest in programming and became adept at web development. 
+        I currently serve as a member of the development team at Foodboss, an online food ordering platform.  Althought I primarily work on the front end,
+        I have experience with the full stack.  I am proficient in React, Redux, JavaScript, HTML and CSS.  On the backend, I have worked
+        with Node.js, Express, and PostgreSQL in addition to less familiar technologies such as hapi and knex.  I have also
+        worked extensively several third party packages such as Retool, Expo, and React Native.
+    </p>
+        <p>If you'd like to see more details of my professional journey, please <a href="#" id="resume-link">view my resume</a>.</p>
+    </div>
+</section>
+
+<!-- Resume Modal -->
+<div id="resume-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" title="Close">&times;</span>
+        <embed src="/assets/resume.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+</div>
+
+<script>
+    var modal = document.getElementById("resume-modal");
+    var btn = document.getElementById("resume-link");
+    var span = document.getElementsByClassName("close-btn")[0];
+  
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+  
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  
